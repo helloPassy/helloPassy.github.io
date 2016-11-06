@@ -2,4 +2,4 @@
 
 #Usage
 
-#This website hosts the millionmetro project.
+<h4>This website holds the project page for millionmetro, the app of the future.</h4>
