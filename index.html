@@ -25,8 +25,35 @@
                 margin: 0;  
                 padding: 0 auto;  
             }
+
+            #hiddenmenu {
+                position: fixed;
+                top: 0;
+                z-index:1;
+            }
+            
+            #header {
+                top: 0;
+                position:absolute;
+                z-index:2;
+            }
+
+            #body {
+                padding-top: 80px;
+                position:absolute;
+                z-index: auto;
+            }
         </style>
         <div id="hello">
+            <div id="hiddenmenu">
+                THIS IS MY HIDDEN MENU
+            </div>
+            <div id="header">
+                Here is my header with a lot of text and my main menu
+            </div>
+            <div id="body">
+                MY BODY
+            </div>
             <h1 id="ching">millionmetro</h1>
             <h2 id="subtitle">the app for going</h2>
             <img src="maxresdefault.jpg"/>
